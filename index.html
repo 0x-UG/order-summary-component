@@ -14,6 +14,17 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
 
 		<title>Frontend Mentor | Order summary card</title>
 
@@ -31,36 +42,46 @@
 	<body>
 		<main>
 			<section class="container">
-				<div class="image">
+				<div>
 					<img
+						class="image"
 						src="images/illustration-hero.svg"
 						alt="hero-illustration"
 					/>
 				</div>
-				<h1>Order Summary</h1>
-				<p>
-					You can now listen to millions of songs,
-					audiobooks, and podcasts on any device
-					anywhere you like!
-				</p>
+				<div class="order-summary">
+					<h1>Order Summary</h1>
+					<p class="hero-text">
+						You can now listen to millions
+						of songs, audiobooks, and
+						podcasts on any device anywhere
+						you like!
+					</p>
 
-				<div class="pricing">
-					<img
-						src="images/icon-music.svg"
-						alt="icon-music"
-					/>
-					<div class="price">
-						<h2>Annual Plan</h2>
-						<p>$59.99/year</p>
+					<div class="pricing">
+						<img
+							src="images/icon-music.svg"
+							alt="icon-music"
+						/>
+						<div class="price">
+							<p>Annual Plan</p>
+							<p class="price--light">
+								$59.99/year
+							</p>
+						</div>
+						<a href="#">Change</a>
 					</div>
-					<a href="#">Change</a>
-				</div>
 
-				<button class="cta-pay">
-					Proceed to Payment
-				</button>
-				<br />
-				<button class="cta-cancel">Cancel Order</button>
+					<button class="cta-pay">
+						Proceed to Payment
+					</button>
+					<br />
+					<a href="#"
+						><p class="cta-cancel">
+							Cancel Order
+						</p></a
+					>
+				</div>
 			</section>
 		</main>
 

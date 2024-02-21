@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("images/pattern-background-mobile.svg");
+	background-repeat: repeat-y;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	gap: 5em;
+}
+
+html {
+	font-family: "Red Hat Display", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 500;
+}
+
+/* Typography */
+
+h1 {
+	margin-bottom: 0;
+}
+
+.pricing p {
+	margin: 0;
+}
+
+.price p,
+a {
+	font-weight: bold;
+}
+
+.price--light,
+.hero-text,
+.cta-cancel {
+	color: hsl(224, 23%, 55%);
+}
+
+.cta-cancel {
+	margin-top: 0;
+	padding-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hero-text {
+	margin-bottom: 2.5em;
+}
+/* Typography ends here */
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 80%;
+	background-color: white;
+	border-radius: 1.6em;
+}
+
+.image {
+	border-top-right-radius: 1.6em;
+	border-top-left-radius: 1.6em;
+	width: 100%;
+}
+
+.order-summary {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+.pricing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	background-color: hsl(225, 100%, 98%);
+	padding: 0.5em;
+	border-radius: 0.8em;
+	margin-bottom: 0.5em;
+}
+
+button {
+	padding: 1em;
+	margin-top: 2em;
+	font-weight: bolder;
+	font-size: 1rem;
+	color: white;
+	background-color: hsl(245, 75%, 52%);
+	border: none;
+	border-radius: 0.8em;
+}
