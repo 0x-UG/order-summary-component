@@ -108,7 +108,7 @@ button {
 	border-radius: 0.8em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
 	.container {
 		max-width: 450px;
 	}
